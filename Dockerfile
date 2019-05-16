@@ -13,6 +13,8 @@ RUN \
 RUN \
   pip3 install pipenv awscli
 RUN \
-  npm i -g serverless
+  npm install -g try-thread-sleep
+RUN \
+  npm install -g serverless --ignore-scripts spawn-sync
 RUN \
   npm i -g lerna
