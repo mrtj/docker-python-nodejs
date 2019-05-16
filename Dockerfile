@@ -9,7 +9,7 @@ RUN \
 RUN apt-get install --assume-yes nodejs
 RUN npm i npm@latest -g
 RUN \
-    apt-get install --assume-yes python3.6 python3-pip
+  apt-get install --assume-yes python3.6 python3-pip gettext-base
 RUN \
   pip3 install pipenv awscli
 RUN \
