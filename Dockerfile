@@ -1,4 +1,4 @@
-FROM ubuntu:artful         
+FROM ubuntu:cosmic
 
 # Install node nodejs and python
 RUN \
